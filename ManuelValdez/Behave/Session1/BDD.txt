@@ -1,0 +1,34 @@
+1.- When and why BDD was defined
+	It started in 2003 with "agiledox", a tool to generate documentation from JUnit test. Then some years after in 2004 JBehave was born. It was created by Dan North, then in 2006 Chris Matts helped him to create "given-when-then" canvas.
+	It was created because in projects communications an time spent in fixing is too much, with this PO, development team and QA team are talking the same language and know the mail goal of a feature for the user.
+2.- The most important aspects of BDD
+	- Improve communication between stakeholdes, development team and QA team.
+	- Get results that will accomplish and fullfill user's requirements.
+	- Easy maitenance of user stories, that will help developers with testing their code and also QA team to test all the product.
+3.- Why is useful and when could be applied.
+	It is useful because stakeholder, PO, development team and QA team can make a better work and can have an easy way to coordinate between each other. This will lead to good results and specially satisfy user/client requirements. With BDD language and communication problems will be solved, maitenance will be easy to apply.
+	BDD could be applied when the project is beginning because it is a very strong 
+4.- Which type of teams could implement BDD
+	Teams where leads of development and QA teams should work together in order the project succeed. Developers should be willing to test their code. QA team should be able to understand user stories from PO and write test cases focused in scenarios and features.
+	
+5.- Structure of a feature – Give an example
+	A feature should have a name, size and a priority
+	For Example:
+		"Listen to music without using internet connection"
+		Priority: High
+6.- Structure of a user story – Give an example
+	A user story should have a title and a text that is going to tell us what it is about. For this it can have the type of user, what it wants to accomplish, and the benefit of this.
+	For example:
+		"As a user I want to listen to music without using internet connection so that I could listen to it anywhere, anytime"
+7.- Structure of a scenario – Give an example
+	A scenario should have a initial context or pre condition, an event or group and a statement that ensures outcomes.
+		Given I have created a playlist
+		When I have downloaded all playlist songs
+		Then I can listen this songs without internet connection	
+8.- Differences between BDD and BDT
+	- BDD is a methodology to develop, BDT is a methodology to test
+	- BDD starts at the begging of the project or the feature from the PO throught the development team and QA team.
+	- BDT starts at when the project already has features to test and QA team is responsible to use PO's user stories and write scenarios and tests to fullfil these ones.
+	- BDD focus on developing in a right way in order to accomplish user requirements.
+	- BDT focus on finding bugs.
+	
